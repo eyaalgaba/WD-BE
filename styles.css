@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+.navbar {
+    background-color: #021200;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.nav-link {
+    font-size: 25px !important;
+    color: white !important; 
+    font-family: "Baskervville SC", serif;
+    padding-right: 20px !important;
+}
+
+.navbar-nav {
+    padding-right: 40px !important;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.front {
+    margin-top:110px !important;
+}
+
+.logoB {
+    height: 600px !important;
+    width: 600px !important;
+    align-items: center;
+}
+
+.fName{
+    font-family: "Baskervville SC", serif;
+    text-align: end;
+    color: white;
+    padding-top:190px ;
+    font-size: 100px;
+}
+
+.lName{
+    font-family: "Baskervville SC", serif;
+    text-align: start;
+    color: white;
+    padding-top:190px ;
+    font-size: 100px;
+}
+
+@media (max-width: 768px) {
+    .fName{
+        padding-top: 0px;
+        font-size: 90px;
+        text-align: center;
+    }
+    .lName{
+        padding-top:0px;
+        font-size: 90px;
+        text-align: center;
+    }
+    .logoB {
+        height: 500px !important;
+    }
+}
+
+.greeting {
+    color: white;
+    font-size: 80px;
+    font-family: "Crimson Text", serif;
+    font-weight: bolder;
+
+}
+
+.myName {
+    color: #89F09C;
+    font-family: "Crimson Text", serif;
+    font-weight: bolder;
+}
+
+* {
+    overflow-x: hidden;
+}
+
+.profession {
+    color: white;
+    font-size: 50px;
+    font-family: "Crimson Text", serif;
+    font-weight: 800px;
+}
+
+.devCont {
+    color: #89F09C;
+    font-family: "Crimson Text", serif;
+    font-weight: 800px;
+}
+
+.space {
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 800px;
+}
+
+.graphic {
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 800px;
+}
+
+.design {
+    color: #89F09C;
+    font-family: "Crimson Text", serif;
+    font-weight: 800px;
+}
+
+.information {
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500px;
+}
+
+.projects {
+    font-family: "Baskervville SC", serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.pro {
+    font-family: "Crimson Text", serif !important;
+    font-size: 30px !important;
+}
+
+.logoAnimate {
+    animation: 3s flip-animation infinite linear;
+}
+
+@keyframes flip-animation {
+    0%{transform:rotateY(0);}
+    100%{transform:rotateY(360deg);}
+}
+
+.projectCard:hover {
+    box-shadow: 10px 10px 10px 10px #119D2B;
+    margin-bottom: 20px;
+}
